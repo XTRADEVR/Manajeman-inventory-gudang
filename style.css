@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #090d16;
+    color: #f8fafc;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+}
+
+.splash-fade {
+  animation: fadeOut 0.8s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
