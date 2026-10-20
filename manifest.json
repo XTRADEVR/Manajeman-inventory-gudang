@@ -1,21 +1,20 @@
 {
-  "name": "GudangPro Manajemen Inventori",
-  "short_name": "GudangPro",
-  "description": "Aplikasi manajemen inventori gudang skala kecil/menengah mobile-first",
+  "name": "GudangKita - Inventori Gudang PWA",
+  "short_name": "GudangKita",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "theme_color": "#0a84ff",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/1087/1087815.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/1087/1087815.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
